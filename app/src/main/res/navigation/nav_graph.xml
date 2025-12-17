@@ -30,4 +30,5 @@
         android:name="com.example.coffeerecipes.fragments.HistoryFragment"
         android:label="History"/>
 
+
 </navigation>
