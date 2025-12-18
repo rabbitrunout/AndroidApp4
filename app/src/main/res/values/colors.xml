@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Coffee Palette -->
+    <color name="latte_cream">#FAF7F2</color>
+    <color name="milk_foam">#FFFFFF</color>
+    <color name="espresso_brown">#3E2723</color>
+    <color name="cocoa_gray">#6D4C41</color>
+    <color name="caramel_gold">#C89B3C</color>
+    <color name="soft_shadow">#E6DED8</color>
 </resources>

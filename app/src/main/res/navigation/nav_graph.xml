@@ -18,7 +18,17 @@
     <fragment
         android:id="@+id/recipesFragment"
         android:name="com.example.coffeerecipes.fragments.RecipesFragment"
-        android:label="Recipes"/>
+        android:label="Recipes">
+
+        <action
+            android:id="@+id/action_recipesFragment_to_recipeDetailFragment"
+            app:destination="@id/recipeDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/recipeDetailFragment"
+        android:name="com.example.coffeerecipes.fragments.RecipeDetailFragment"
+        android:label="Recipe Detail"/>
 
     <fragment
         android:id="@+id/favoritesFragment"
@@ -29,6 +39,5 @@
         android:id="@+id/historyFragment"
         android:name="com.example.coffeerecipes.fragments.HistoryFragment"
         android:label="History"/>
-
 
 </navigation>
