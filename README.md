@@ -5,6 +5,9 @@ The app focuses on clean UI, clear user feedback, and a warm coffee-inspired des
 
 ---
 
+![Recipes List](screenshots/recipes_list.png)
+
+
 ## 📱 Features
 
 - Browse coffee recipes by categories (Latte, Espresso, etc.)
