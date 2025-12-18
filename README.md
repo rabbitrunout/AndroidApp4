@@ -1,116 +1,101 @@
-☕ Coffee Recipes
+# ☕ Coffee Recipes
 
-Coffee Recipes is an Android application that allows users to browse coffee recipes by category, view detailed preparation steps, and manage their favorite recipes.
+**Coffee Recipes** is an Android application that allows users to browse coffee recipes by category, view detailed preparation steps, and manage their favorite recipes.  
 The app focuses on clean UI, clear user feedback, and a warm coffee-inspired design.
 
-📱 Features
+---
 
-Browse coffee recipes by categories (Latte, Espresso, etc.)
+## 📱 Features
 
-View detailed recipe instructions and ingredients
+- Browse coffee recipes by categories (Latte, Espresso, etc.)
+- View detailed recipe instructions and ingredients
+- Add and remove recipes from Favorites ⭐
+- Visual feedback with animations and Snackbars
+- Undo-friendly user experience
+- History of recently viewed recipes
+- Clean, coffee-themed UI (Latte & Espresso palette)
 
-Add and remove recipes from Favorites ⭐
+---
 
-Visual feedback with animations and Snackbars
+## ⭐ Favorites UX
 
-Undo-friendly user experience
-
-History of recently viewed recipes
-
-Clean, coffee-themed UI (Latte & Espresso palette)
-
-⭐ Favorites UX
-
-Gray star — recipe is not in favorites
-
-Caramel-colored star — recipe is added to favorites
+- **Gray star** — recipe is not in favorites  
+- **Caramel-colored star** — recipe is added to favorites  
 
 Snackbar feedback:
-
-“Added to favorites ☕”
-
-“Removed from favorites”
+- *“Added to favorites ☕”*
+- *“Removed from favorites”*
 
 This ensures users always understand the current state of their action.
 
-🎨 UI & Design Decisions
+---
 
-Latte / Espresso color palette for a warm and premium feel
+## 🎨 UI & Design Decisions
 
-Card-based layout for better readability
+- Latte / Espresso color palette for a warm and premium feel
+- Card-based layout for better readability
+- Clear visual hierarchy on the detail screen
+- Button placement inside the content area for natural navigation
+- Subtle animations to enhance user experience
 
-Clear visual hierarchy on the detail screen
+---
 
-Button placement inside content area for natural navigation
+## 🧠 Architecture Overview
 
-Subtle animations to enhance user experience
+- Fragments with **Navigation Component**
+- **RecyclerView** for dynamic lists
+- **Repository pattern** for managing recipe data
+- **SharedPreferences** for Favorites and History
+- **Material Components** (Snackbar, ripple effects)
 
-🧠 Architecture Overview
+---
 
-Fragments + Navigation Component
+## 🛠 Tech Stack
 
-RecyclerView for dynamic lists
+- **Kotlin**
+- **Android SDK**
+- **Navigation Component**
+- **RecyclerView**
+- **Material Design**
+- **SharedPreferences**
 
-Repository pattern for managing recipe data
+---
 
-SharedPreferences for Favorites and History
+## 📸 Screenshots
 
-Material Components (Snackbar, ripple effects)
+> *(Add screenshots here if required by the assignment)*
 
-🛠 Tech Stack
+- Categories screen  
+- Recipes list  
+- Recipe detail screen  
+- Favorites screen  
+- Snackbar feedback  
 
-Kotlin
+---
 
-Android SDK
-
-Navigation Component
-
-RecyclerView
-
-Material Design
-
-SharedPreferences
-
-📸 Screenshots
-
-(Add screenshots here if required by the assignment)
-
-Categories screen
-
-Recipes list
-
-Recipe detail screen
-
-Favorites screen
-
-Snackbar feedback
-
-✅ Learning Outcomes
+## ✅ Learning Outcomes
 
 This project demonstrates:
 
-Android UI best practices
+- Android UI best practices
+- State-based UI feedback
+- Clean code structure
+- User-centered UX decisions
+- Material Design principles
 
-State-based UI feedback
+---
 
-Clean code structure
+## 🚀 Future Improvements
 
-User-centered UX decisions
+- Search recipes by name
+- Dark Espresso mode
+- Share recipes with friends
+- Cloud sync for favorites
 
-Material Design principles
+---
 
-🚀 Future Improvements
+## 👩‍💻 Author
 
-Search recipes by name
-
-Dark Espresso mode
-
-Share recipes with friends
-
-Cloud sync for favorites
-
-👩‍💻 Author
-
-Irina S.
-Android Application Development
+**Irina S.**  
+Android Application Development  
 2025
