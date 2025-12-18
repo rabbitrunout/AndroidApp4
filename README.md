@@ -6,11 +6,14 @@ The app focuses on clean UI, clear user feedback, and a warm coffee-inspired des
 ---
 
 ## 📸 Screenshots
+### Recipes
+<p float="left">
+  <img src="screenshots/1.png" width="220" />
+  <img src="screenshots/2.png" width="220" />
+</p>
 
-| Recipes List | Recipe Detail |
-|-------------|---------------|
-| ![](screenshots/1.png) | ![](screenshots/2.png) |
-| ![](screenshots/3.png) | ![](screenshots/4.png) |
+### Recipe Detail
+<img src="screenshots/3.png" width="250" />
 
 
 
