@@ -5,7 +5,13 @@ The app focuses on clean UI, clear user feedback, and a warm coffee-inspired des
 
 ---
 
-![Recipes List](screenshots/1.png, screenshots/2.png)
+## 📸 Screenshots
+
+| Recipes List | Recipe Detail |
+|-------------|---------------|
+| ![](screenshots/1.png) | ![](screenshots/2.png) |
+| ![](screenshots/3.png) | ![](screenshots/4.png) |
+
 
 
 ## 📱 Features
